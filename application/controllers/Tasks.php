@@ -29,7 +29,6 @@ class Tasks extends CI_Controller {
 	{
 		$tasks=new TasksModel;
 		$data['data']=$tasks->get_tasks();
-		print_r($data);
 		$this->load->view('includes/header');       
 		$this->load->view('tasks/list',$data);
 		$this->load->view('includes/footer');

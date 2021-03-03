@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="form-group">
-                <label class="col-md-3">Title</label>
+                <label class="col-md-3">Name</label>
                 <div class="col-md-9">
                     <input type="text" name="task_name" class="form-control">
                 </div>
@@ -36,7 +36,7 @@
         <br>
         <br>
         <div class="col-md-8 col-md-offset-2 pull-right">
-            <input type="submit" name="Save" class="btn  btn-primary">
+            <input type="submit" name="Create" class="btn  btn-primary">
             <a  href="<?php echo base_url('tasks') ?>">Back</a>
         </div>
     </div>
